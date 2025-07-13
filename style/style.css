@@ -1,4 +1,10 @@
 /* this is the main body section */
+.inter {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: normal;
+    font-style: normal;
+}
 
 .body {
     max-width: 1320px;
@@ -39,6 +45,36 @@
 
 /* the deals section starts from here */
 
+.deals-title {
+    color: #ff000f;
+    font-size: 90px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0 0 40px 0;
+
+}
+
+.deals-subtitle {
+    font-size: 25px;
+    text-align: center;
+    color: #ff000f;
+    margin: 0;
+
+}
+
+.deals-description {
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;
+    margin: 0;
+    margin: 0 0 40px 0;
+}
+
+.deals img {
+    height: 500px;
+    display: flex;
+    margin: 0 auto;
+}
 
 /* the welcome section starts from here */
 /* the time and location section starts from here */
