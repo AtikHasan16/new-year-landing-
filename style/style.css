@@ -16,7 +16,7 @@
 .header {
     background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.452)), url("/images/Banner\ Image.png");
     background-repeat: no-repeat;
-    border-radius: 16px;
+    border-radius: 20px;
     margin: 50px 0 200px 0;
     height: 600px;
     width: 100%;
@@ -27,7 +27,7 @@
 
 .banner {
     padding: 170px 340px;
-    background-image: ;
+
 }
 
 .banner-title {
@@ -77,6 +77,52 @@
 }
 
 /* the welcome section starts from here */
+
+.welcome {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 20), rgba(0, 0, 0, 0)), url("/images/Vectorrr.png");
+    background-repeat: no-repeat;
+    height: 600px;
+    border-radius: 20px;
+    margin: 120px 0;
+
+}
+
+.welcome-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 150px;
+
+}
+
+.welcome-text {
+    text-align: left;
+    padding: 100px;
+}
+
+.welcome-title {
+    font-size: 65px;
+    color: white;
+    font-weight: bolder;
+}
+
+.welcome-description {
+    font-size: 20px;
+    color: white;
+    opacity: 70%;
+}
+
+.join-now {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.welcome-image {
+    padding: 70px;
+}
+
 /* the time and location section starts from here */
 /* the coming soon section starts from here */
 /* the holiday  section starts from here */
