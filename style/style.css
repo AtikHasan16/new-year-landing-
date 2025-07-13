@@ -1,0 +1,49 @@
+/* this is the main body section */
+
+.body {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+/* this is the header section */
+
+.header {
+    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.452)), url("/images/Banner\ Image.png");
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 50px 0 200px 0;
+    height: 600px;
+    width: 100%;
+
+}
+
+/* the banner section starts from here */
+
+.banner {
+    padding: 170px 340px;
+    background-image: ;
+}
+
+.banner-title {
+    color: white;
+    text-align: center;
+    font-size: 30px;
+
+}
+
+.banner-subtitle {
+    color: white;
+    text-align: center;
+    font-size: 70px;
+}
+
+/* the deals section starts from here */
+
+
+/* the welcome section starts from here */
+/* the time and location section starts from here */
+/* the coming soon section starts from here */
+/* the holiday  section starts from here */
+/* the gifts  section starts from here */
+/* the newsletter  section starts from here */
+/* the footer  section starts from here */
