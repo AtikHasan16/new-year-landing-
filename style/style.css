@@ -124,6 +124,38 @@
 }
 
 /* the time and location section starts from here */
+
+.time-and-location {
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, .20), rgba(255, 0, 0, 0));
+    border-radius: 20px;
+    margin: 200px 0;
+    height: 500px;
+    font-size: 30px;
+    text-align: center;
+    padding: 100px 0 50px 0;
+}
+
+.time-and-location span {
+    color: #ff000f;
+}
+
+.time-and-location .join-now {
+    border: none;
+    border-radius: 10px;
+    background-color: #ff000f;
+    color: white;
+    padding: 15px 30px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.time-and-location .join-now:hover {
+    transform: scale(1.1);
+    background-color: transparent;
+    border: 2px solid #ff000f;
+    color: red;
+}
+
 /* the coming soon section starts from here */
 /* the holiday  section starts from here */
 /* the gifts  section starts from here */
