@@ -207,6 +207,48 @@
 }
 
 /* the holiday  section starts from here */
+.holiday-text-container {
+    text-align: center;
+}
+
+.holiday-title {
+    font-size: 25px;
+    font-weight: normal;
+    color: #070211;
+    margin: 0;
+    padding: 0;
+}
+
+.Holidays {
+    color: #ff000f;
+}
+
+.holiday-subtitle {
+    font-size: 75px;
+    font-weight: bolder;
+    font-family: merriweather;
+    margin: 0;
+    padding: 0;
+}
+
+.holiday-description {
+    font-size: 20px;
+    opacity: 60%;
+}
+
+
+.holiday-image-container {
+    background-image: url("../images/red carpet.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    justify-content: space-between;
+    height: 650px;
+
+}
+
+
+
 /* the gifts  section starts from here */
 /* the newsletter  section starts from here */
 /* the footer  section starts from here */
