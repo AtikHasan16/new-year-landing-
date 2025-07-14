@@ -34,6 +34,7 @@
     color: white;
     text-align: center;
     font-size: 30px;
+    font-family: merriweather;
 
 }
 
@@ -41,6 +42,7 @@
     color: white;
     text-align: center;
     font-size: 70px;
+    font-family: merriweather;
 }
 
 /* the deals section starts from here */
@@ -104,6 +106,7 @@
     font-size: 65px;
     color: white;
     font-weight: bolder;
+    font-family: merriweather;
 }
 
 .welcome-description {
@@ -157,6 +160,52 @@
 }
 
 /* the coming soon section starts from here */
+
+.coming-soon {
+    margin: 200px 0;
+}
+
+.coming-soon-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.cs-texts {
+    height: 250px;
+    width: 350px;
+}
+
+.cs-title {
+    font-size: 25px;
+    color: #ff000f;
+    font-weight: normal;
+}
+
+.cs-subtitle {
+    font-size: 45px;
+    font-weight: bolder;
+    font-family: merriweather;
+}
+
+.cs-right-texts {
+    height: 250px;
+    width: 350px;
+}
+
+.cs-description {
+    font-size: 20px;
+    font-weight: normal;
+    opacity: 60%;
+
+}
+
+.cs-image {
+    border: 15px solid #ff000f;
+    border-radius: 100%;
+    padding: 30px;
+}
+
 /* the holiday  section starts from here */
 /* the gifts  section starts from here */
 /* the newsletter  section starts from here */
