@@ -250,5 +250,37 @@
 
 
 /* the gifts  section starts from here */
+
+.gifts {
+    margin: 200px 0;
+}
+
+.gift-title {
+    color: #ff000f;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.gift-subtitle {
+    font-family: merriweather;
+    font-size: 50px;
+    font-weight: bolder;
+    margin: 0;
+}
+
+.gift-description {
+    font-size: 20px;
+    opacity: 60%;
+}
+
+.gift-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+}
+
+
+
 /* the newsletter  section starts from here */
 /* the footer  section starts from here */
