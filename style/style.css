@@ -1,313 +1,321 @@
 /* this is the main body section */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 .inter {
-    font-family: "Inter", sans-serif;
-    font-optical-sizing: auto;
-    font-weight: normal;
-    font-style: normal;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
 }
 
 .body {
-    max-width: 1320px;
-    margin: 0 auto;
+  max-width: 1320px;
+  margin: 0 auto;
 }
 
 /* this is the header section */
 
 .header {
-    background-image: linear-gradient(to bottom, rgb(0, 0, 0), rgba(0, 0, 0, 0.486), rgba(0, 0, 0, 0.452)), url("../images/Banner.png");
-    background-repeat: no-repeat;
-    border-radius: 20px;
-    margin: 50px 0 200px 0;
-    height: 600px;
-    width: 100%;
-
+  background-image: linear-gradient(
+      to bottom,
+      rgb(0, 0, 0),
+      rgba(0, 0, 0, 0.486),
+      rgba(0, 0, 0, 0.452)
+    ),
+    url("../images/Banner.png");
+  background-repeat: no-repeat;
+  border-radius: 20px;
+  margin: 50px 0 200px 0;
+  height: 600px;
+  width: 100%;
 }
 
 /* the banner section starts from here */
 
 .banner {
-    padding: 170px 340px;
-
+  padding: 170px 340px;
 }
 
 .banner-title {
-    color: white;
-    text-align: center;
-    font-size: 30px;
-    font-family: merriweather;
-
+  color: white;
+  text-align: center;
+  font-size: 30px;
+  font-family: merriweather;
 }
 
 .banner-subtitle {
-    color: white;
-    text-align: center;
-    font-size: 70px;
-    font-family: merriweather;
+  color: white;
+  text-align: center;
+  font-size: 70px;
+  font-family: merriweather;
 }
 
 /* the deals section starts from here */
 
 .deals-title {
-    color: #ff000f;
-    font-size: 90px;
-    text-align: center;
-    font-weight: bold;
-    margin: 0 0 40px 0;
-
+  color: #ff000f;
+  font-size: 90px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0 0 40px 0;
 }
 
 .deals-subtitle {
-    font-size: 25px;
-    text-align: center;
-    color: #ff000f;
-    margin: 0;
-
+  font-size: 25px;
+  text-align: center;
+  color: #ff000f;
+  margin: 0;
 }
 
 .deals-description {
-    font-size: 50px;
-    text-align: center;
-    font-weight: bold;
-    margin: 0;
-    margin: 0 0 40px 0;
+  font-size: 50px;
+  text-align: center;
+  font-weight: bold;
+  margin: 0;
+  margin: 0 0 40px 0;
 }
 
 .deals img {
-    height: 500px;
-    display: flex;
-    margin: 0 auto;
+  height: 500px;
+  display: flex;
+  margin: 0 auto;
 }
 
 /* the welcome section starts from here */
 
 .welcome {
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 20), rgba(0, 0, 0, 0)), url("../images/Vectorrr.png");
-    background-repeat: no-repeat;
-    height: 600px;
-    border-radius: 20px;
-    margin: 120px 0;
-
+  background-image: linear-gradient(
+      to right,
+      rgba(0, 0, 0, 20),
+      rgba(0, 0, 0, 0)
+    ),
+    url("../images/Vectorrr.png");
+  background-repeat: no-repeat;
+  height: 600px;
+  border-radius: 20px;
+  margin: 120px 0;
 }
 
 .welcome-container {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 150px;
-
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 150px;
 }
 
 .welcome-text {
-    text-align: left;
-    padding: 100px;
+  text-align: left;
+  padding: 100px;
 }
 
 .welcome-title {
-    font-size: 65px;
-    color: white;
-    font-weight: bolder;
-    font-family: merriweather;
+  font-size: 65px;
+  color: white;
+  font-weight: bolder;
+  font-family: merriweather;
 }
 
 .welcome-description {
-    font-size: 20px;
-    color: white;
-    opacity: 70%;
+  font-size: 20px;
+  color: white;
+  opacity: 70%;
 }
 
 .join-now {
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
-    font-weight: bold;
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
 }
 
 .welcome-image {
-    padding: 70px;
+  padding: 70px;
 }
 
 /* the time and location section starts from here */
 
 .time-and-location {
-    background-image: linear-gradient(to bottom, rgba(255, 0, 0, .20), rgba(255, 0, 0, 0));
-    border-radius: 20px;
-    margin: 200px 0;
-    height: 500px;
-    font-size: 30px;
-    text-align: center;
-    padding: 100px 0 50px 0;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 0, 0, 0.2),
+    rgba(255, 0, 0, 0)
+  );
+  border-radius: 20px;
+  margin: 200px 0;
+  height: 500px;
+  font-size: 30px;
+  text-align: center;
+  padding: 100px 0 50px 0;
 }
 
 .time-and-location span {
-    color: #ff000f;
+  color: #ff000f;
 }
 
 .time-and-location .join-now {
-    border: none;
-    border-radius: 10px;
-    background-color: #ff000f;
-    color: white;
-    padding: 15px 30px;
-    cursor: pointer;
-    transition: 0.3s;
+  border: none;
+  border-radius: 10px;
+  background-color: #ff000f;
+  color: white;
+  padding: 15px 30px;
+  cursor: pointer;
+  transition: 0.3s;
+  margin: 20px;
 }
 
 .time-and-location .join-now:hover {
-    transform: scale(1.1);
-    background-color: transparent;
-    border: 2px solid #ff000f;
-    color: red;
+  transform: scale(1.1);
+  background-color: transparent;
+  border: 2px solid #ff000f;
+  color: red;
 }
 
 /* the coming soon section starts from here */
 
 .coming-soon {
-    margin: 200px 0;
+  margin: 200px 0;
 }
 
 .coming-soon-container {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
 }
 
 .cs-texts {
-    height: 250px;
-    width: 350px;
+  height: 250px;
+  width: 350px;
 }
 
 .cs-title {
-    font-size: 25px;
-    color: #ff000f;
-    font-weight: normal;
+  font-size: 25px;
+  color: #ff000f;
+  font-weight: normal;
 }
 
 .cs-subtitle {
-    font-size: 45px;
-    font-weight: bolder;
-    font-family: merriweather;
+  font-size: 45px;
+  font-weight: bolder;
+  font-family: merriweather;
 }
 
 .cs-right-texts {
-    height: 250px;
-    width: 350px;
+  height: 250px;
+  width: 350px;
 }
 
 .cs-description {
-    font-size: 20px;
-    font-weight: normal;
-    opacity: 60%;
-
+  font-size: 20px;
+  font-weight: normal;
+  opacity: 60%;
 }
 
 .cs-image {
-    border: 15px solid #ff000f;
-    border-radius: 100%;
-    padding: 30px;
+  border: 15px solid #ff000f;
+  border-radius: 100%;
+  padding: 30px;
 }
 
 /* the holiday  section starts from here */
 .holiday-text-container {
-    text-align: center;
+  text-align: center;
 }
 
 .holiday-title {
-    font-size: 25px;
-    font-weight: normal;
-    color: #070211;
-    margin: 0;
-    padding: 0;
+  font-size: 25px;
+  font-weight: normal;
+  color: #070211;
+  margin: 0;
+  padding: 0;
 }
 
 .Holidays {
-    color: #ff000f;
+  color: #ff000f;
 }
 
 .holiday-subtitle {
-    font-size: 75px;
-    font-weight: bolder;
-    font-family: merriweather;
-    margin: 0;
-    padding: 0;
+  font-size: 75px;
+  font-weight: bolder;
+  font-family: merriweather;
+  margin: 0;
+  padding: 0;
 }
 
 .holiday-description {
-    font-size: 20px;
-    opacity: 60%;
+  font-size: 20px;
+  opacity: 60%;
 }
-
 
 .holiday-image-container {
-    background-image: url("../images/redcarpet.png");
-    background-repeat: no-repeat;
-    background-position: bottom;
-    display: flex;
-    justify-content: space-between;
-    height: 650px;
-
+  background-image: url("../images/redcarpet.png");
+  background-repeat: no-repeat;
+  background-position: bottom;
+  display: flex;
+  justify-content: space-between;
+  height: 650px;
 }
-
-
 
 /* the gifts  section starts from here */
 
 .gifts {
-    margin: 200px 0;
+  margin: 200px 0;
 }
 
 .gift-title {
-    color: #ff000f;
-    font-size: 25px;
-    font-weight: bold;
-    margin: 0;
+  color: #ff000f;
+  font-size: 25px;
+  font-weight: bold;
+  margin: 0;
 }
 
 .gift-subtitle {
-    font-family: merriweather;
-    font-size: 50px;
-    font-weight: bolder;
-    margin: 0;
+  font-family: merriweather;
+  font-size: 50px;
+  font-weight: bolder;
+  margin: 0;
 }
 
 .gift-description {
-    font-size: 20px;
-    opacity: 60%;
+  font-size: 20px;
+  opacity: 60%;
 }
 
 .gift-container {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 24px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
 }
-
-
 
 /* the newsletter  section starts from here */
 
 .newsletter {
-    background-color: rgba(255, 0, 0, 0.05);
-    height: 600px;
-    margin: 200px 0;
-    border-radius: 20px;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  background-color: rgba(255, 0, 0, 0.05);
+  height: 600px;
+  margin: 200px 0;
+  border-radius: 20px;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .newsletter-title {
-    font-size: 50px;
-    font-weight: bolder;
-    font-family: merriweather;
-    padding: 0;
-    margin: 20px 0;
-
+  font-size: 50px;
+  font-weight: bolder;
+  font-family: merriweather;
+  padding: 0;
+  margin: 20px 0;
 }
 
 .newsletter-description {
-    font-size: 20px;
-    padding: 0 150px;
-    margin: 0 0 30px 0;
+  font-size: 20px;
+  padding: 0 150px;
+  margin: 0 0 30px 0;
 }
 
 /* .subscribe-box {
@@ -319,33 +327,73 @@
 } */
 
 .email-box {
-    height: 70px;
-    width: 600px;
-    border-radius: 50px;
-    font-size: 20px;
-    padding-left: 50px;
-    border: none;
-
-
+  height: 70px;
+  width: 600px;
+  border-radius: 50px;
+  font-size: 20px;
+  padding-left: 50px;
+  border: none;
 }
 
 .news-button {
-    position: relative;
-    height: 70px;
-    width: 200px;
-    border-radius: 0px 50px 50px 0;
-    border: none;
-    font-size: 20px;
-    background-color: #ff000f;
-    color: white;
-    padding: 20px;
-    cursor: pointer;
-    right: 50px;
+  position: relative;
+  height: 70px;
+  width: 200px;
+  border-radius: 0px 50px 50px 0;
+  border: none;
+  font-size: 20px;
+  background-color: #ff000f;
+  color: white;
+  padding: 20px;
+  cursor: pointer;
+  right: 50px;
 }
 
 .email-box:focus {
-    border: none;
-    outline: none;
+  border: none;
+  outline: none;
 }
 
 /* the footer  section starts from here */
+footer {
+  background-color: #070211;
+  color: white;
+  height: 600px;
+  text-align: center;
+
+  padding: 100px;
+}
+
+.top-text-area {
+}
+
+.icon-area {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  padding-bottom: 100px;
+}
+
+.bottom-text {
+}
+
+.bottom-text a {
+  text-decoration: none;
+  color: white;
+}
+
+.number-web {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 50px;
+  padding: 50px 0;
+}
+
+.number-web > div {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
