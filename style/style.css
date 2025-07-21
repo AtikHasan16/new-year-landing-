@@ -364,9 +364,6 @@ footer {
   padding: 100px;
 }
 
-.top-text-area {
-}
-
 .icon-area {
   display: flex;
   justify-content: center;
@@ -375,8 +372,6 @@ footer {
   padding-bottom: 100px;
 }
 
-.bottom-text {
-}
 
 .bottom-text a {
   text-decoration: none;
